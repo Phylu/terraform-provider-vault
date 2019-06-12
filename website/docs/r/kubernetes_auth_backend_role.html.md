@@ -56,3 +56,11 @@ The following arguments are supported:
 ## Attributes Reference
 
 No additional attributes are exported by this resource.
+
+## Import
+
+Kubernetes authentication backend roles can be imported using the `path`, e.g.
+
+```
+$ terraform import vault_kubernetes_auth_backend_role.example auth/kubernetes/role/test-role
+```
